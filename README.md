@@ -20,4 +20,5 @@ Design a speech enhancement pipeline using beamforming and noise reduction to im
 - Simple VAD
 
 ## 👩‍💻 Author
-🔧 Firmware & Embedded Systems | M.S. Electrical and Computer Engineering
+**Nikita Sinha** 
+-🔧 Firmware & Embedded Systems | M.S. Electrical and Computer Engineering
