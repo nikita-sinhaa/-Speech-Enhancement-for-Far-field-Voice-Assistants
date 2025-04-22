@@ -1,0 +1,39 @@
+
+## 🎯 Purpose
+
+This folder is reserved for **hardware interface drivers** used in the `SpeechEnhancement_FarField` project targeting the **FRDM-K64F** board.
+
+It is designed to hold:
+- Audio interface drivers (I2S)
+- Codec drivers (e.g., SGTL5000)
+- DMA and interrupt routines for real-time buffering
+- GPIO/UART if required for debugging
+
+---
+
+## 🧠 How to Use
+
+1. **Generate SDK** from [MCUXpresso SDK Builder](https://mcuxpresso.nxp.com/)
+2. Select **FRDM-K64F**
+3. Include:
+   - I2S, DMA, and optional GPIO/UART
+   - SGTL5000 or relevant codec if used
+4. Copy generated `drivers/` and `board/` source files here
+
+---
+
+## 🧪 Sample Integration Points
+
+In your `main.c`:
+```c
+#include "frdm_audio_config.h"
+init_codec();
+start_i2s_stream();
+```
+
+Interrupt service example:
+```c
+void I2S0_IRQHandler(void) {
+    handle_audio_dma_interrupt();
+}
+```
