@@ -1,4 +1,4 @@
-# -Speech-Enhancement-for-Far-field-Voice-Assistants
+# Speech-Enhancement-for-Far-field-Voice-Assistants
 
 ## 🎯 Objective
 Design a speech enhancement pipeline using beamforming and noise reduction to improve far-field audio captured by virtual microphones.
